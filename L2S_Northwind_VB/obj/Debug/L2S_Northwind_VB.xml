@@ -1,0 +1,485 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+L2S_Northwind_VB
+</name>
+</assembly>
+<members>
+<member name="M:L2S_Northwind_VB.Accessor.GetEmployeeTable">
+	<summary>
+ Returns the Full Employee Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetShipperTable">
+	<summary>
+ Returns the Full Shipper Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderTable">
+	<summary>
+ Returns the Full Order Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetEmployeeTerritoryTable">
+	<summary>
+ Returns the Full Employee Territory Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetTerritoryTable">
+	<summary>
+ Returns the Full Territory Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetRegionTable">
+	<summary>
+ Returns the Full Region Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetCustomerTable">
+	<summary>
+ Returns the Full Customer Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetCustomerCustomerDemoTable">
+	<summary>
+ Returns the Full CustomerCustomerDemo Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetCustomerDemographicTable">
+	<summary>
+ Returns the Full Customer Demographic Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderDetailTable">
+	<summary>
+ Returns the Full Order_Detail Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetProductTable">
+	<summary>
+ Returns the Full Product Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetSupplierTable">
+	<summary>
+ Returns the Full Supplier Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetCategoryTable">
+	<summary>
+ Returns the Full Category Table
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetEmployeeById(System.Int32)">
+	<summary>
+ Example:  Where Clause
+ Returns an employee where the
+ employee ID matches the value
+ passed in as empID
+ </summary>
+	<param name="empId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderById(System.Int32)">
+	<summary>
+ Example:  Select to a single returned object
+ using a Where Clause
+ 
+ Returns the first matching order
+ </summary>
+	<param name="ordId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrdersById(System.Int32)">
+	<summary>
+ Example:  Select to a typed List
+ using a Where Clause
+ </summary>
+	<param name="ordId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetEmployeesByHireDate">
+	<summary>
+ Example:  Return an ordered list
+ 
+ Converts the returned value to a List
+ of type Employee; the list is ordered
+ by hire date
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:L2S_Northwind_VB.Accessor.OrdersAndDetailsResult">
+	<summary>
+ This class is used to define the return type
+ for the next function - OrdersAndDetails
+ 
+ When results are extracted from multiple tables
+ you can either return the results as anonymous
+ or as a type; this class defines the return
+ type used by OrdersAndDetails
+ </summary>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.OrdersAndDetails">
+	<summary>
+ Example:  Joins
+ Joining using the join keyword
+ 
+ The values are set to each of the
+ properties contained in the 
+ OrdersAndDetailsResult class
+ 
+ The value returned is converted
+ to a list of the specified type
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:L2S_Northwind_VB.Accessor.OrderAndPricingResult">
+	<summary>
+ Defined to support following function:
+ GetOrderAndPricingInformation - this class
+ supplies the return type for that function
+ </summary>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderAndPricingInformation">
+	<summary>
+ Example:  Query across an entity ref
+ This example collections information from the orders table
+ and the order_details table through the orders table
+ entity association to the orders_details table.  
+ 
+ An entity is a representation in the model of a table
+ in the database, foreign key relationships are maintained
+ as entity references to the related tables in the model.
+ It is possible to query across tables through this
+ relationship in LINQ to SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderAndPricingInformationByOrderId(System.Int32)">
+	<summary>
+ Example:  Query across entity ref with Where class
+ Same as previous function with added where clause
+ 
+ An entity is a representation in the model of a table
+ in the database, foreign key relationships are maintained
+ as entity references to the related tables in the model.
+ It is possible to query across tables through this
+ relationship in LINQ to SQL
+ </summary>
+	<param name="ordId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetOrderValueByOrderId(System.Int32)">
+	<summary>
+ Example:  Aggregation
+ 
+ Returns the total sum of the order 
+ selected by order ID by selecting
+ unit price multiplied by quantity
+ ordered and then calling sum for 
+ the total
+ </summary>
+	<param name="orderId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.GetTopFiveOrdersById(System.Int32)">
+	<summary>
+ Example:  Using Take to get a limited
+ number of returned values for display and 
+ using Skip to sequence to a different 
+ starting point within the returned values -
+ can be used to navigate through a large
+ list
+ </summary>
+	<param name="SkipNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.InsertOrUpdateCustomer(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Insert a customer if the customer does not exist, or
+ update the customer if it does exist
+ </summary>
+	<param name="customerId"></param>
+	<param name="companyName"></param>
+	<param name="contactName"></param>
+	<param name="contactTitle"></param>
+	<param name="address"></param>
+	<param name="city"></param>
+	<param name="region"></param>
+	<param name="postalCode"></param>
+	<param name="country"></param>
+	<param name="phone"></param>
+	<param name="fax"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.DeleteCustomer(System.String)">
+	<summary>
+ Delete a customer by customer ID
+ </summary>
+	<param name="customerID"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.SalesByYear(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+	<summary>
+ Stored Procedure:  Sales By Year
+ </summary>
+	<param name="beginningDate"></param>
+	<param name="endingDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.Accessor.TenMostExpensiveProducts">
+	<summary>
+ Stored Procedure:  Ten Most Expenisve Products
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:L2S_Northwind_VB.Accessor">
+	<summary>
+ This class defines functions used to
+ select, insert, update, and delete data
+ using LINQ to SQL and the defined
+ data context
+ </summary>
+	<remarks></remarks>
+</member><member name="P:L2S_Northwind_VB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:L2S_Northwind_VB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:L2S_Northwind_VB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:L2S_Northwind_VB.frmMain.employeesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full employee table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.shippersToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full shippers table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.ordersToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full orders table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.employeeTerritoryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full employee territory table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.territoryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full territory table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.regionToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full region table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.customerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display full customer table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.customerDemoToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full customer customer demo table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.customerDemographicToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full customer demographic table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.orderDetailsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full order_detail table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.productToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full product table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.supplierProductToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full supplier table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.categoToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Display the full category table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.employeeByIDToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Find and display an employee by 
+ the employee's ID
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.orderByIDToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Gets an Order by the order ID and
+ displays information about the first
+ single matching order.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.employeesByHireDateToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays a list of employeess ordered by
+ their dates of hire
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.ordersByIdToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays all orders that match
+ on Order ID
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.ordersAndDetailsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns values based on joining the Order and
+ Order_Details tables
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.ordersAndDetailsEntityRefToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Query across entity set
+ This example collections information from the orders table
+ and the order_details table through the orders table
+ entity reference to orders_details.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.ordersAndDetailsByOrderIDEntityRefToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Retrieves values across an entity set to 
+ display both order and pricing information 
+ by filtering for an order ID
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.orderValueByOrderIDToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays to total dollar value of the selected order
+ by multiplying each order product's unit cost by
+ the units ordered, and then summing the total of each
+ individual cost.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.getTopFiveOrdersToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays the top five orders in the order table
+ on first selection and then increments up by
+ five orders to show the list five orders
+ at a time
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.insertOrUpdateCustomerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Insert or Update a Customer into
+ the Customer Table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.deleteCustomerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Delete an existing customer from
+ the customer table if the customer
+ ID matches
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.salesByYearToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Execute the Sales by Year stored
+ procedure and display the results
+ in the datagrid
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:L2S_Northwind_VB.frmMain.tenMostExpensiveProductsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Execute the Ten Most Expensive Products
+ stored procedure and display the
+ results in the datagri
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:L2S_Northwind_VB.frmMain">
+	<summary>
+ Demonstration Application - this form
+ class is used to test each of the functions
+ and subroutines defined in the Accessor
+ class
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

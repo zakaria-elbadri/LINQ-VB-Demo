@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="L2S_Northwind_VB">
+</Property><Property Name="Solution File" Value="C:\Users\Zak\Desktop\LINQ to SQL\L2S_Northwind_VB.sln">
+</Property><Property Name="Date" Value="lundi 5 décembre 2011">
+</Property><Property Name="Time" Value="17:51">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="L2S_Northwind_VB.sln" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB.sln">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\L2S_Northwind_VB.vbproj" Description="Project file successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\L2S_Northwind_VB.vbproj">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\L2S_Northwind_VB.vbproj.user" Description="Project user file successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\L2S_Northwind_VB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\Accessor.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\Accessor.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\frmMain.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\frmMain.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\frmMain.Designer.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\frmMain.Designer.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Application.Designer.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\NorthwindDataClasses.designer.vb" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\NorthwindDataClasses.designer.vb">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\NorthwindDataClasses.dbml.layout" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\NorthwindDataClasses.dbml.layout">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\app.config" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\app.config">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Application.myapp" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Settings.settings" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\NorthwindDataClasses.dbml" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\NorthwindDataClasses.dbml">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\frmMain.resx" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\My Project\Resources.resx" Description="File successfully backed up as C:\Users\Zak\Desktop\LINQ to SQL\Backup\L2S_Northwind_VB\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\L2S_Northwind_VB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\L2S_Northwind_VB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="L2S_Northwind_VB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="L2S_Northwind_VB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="L2S_Northwind_VB" Source="L2S_Northwind_VB\L2S_Northwind_VB.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
